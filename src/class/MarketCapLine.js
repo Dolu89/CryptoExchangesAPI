@@ -5,6 +5,7 @@ class MarketCapLine{
         this.name = name
         this.priceUsd = priceUsd
         this.circulatingSupply = circulatingSupply
+        this.marketCap = (circulatingSupply*priceUsd).toString()
         this.volume24 = volume24
         this.change24 = change24
     }

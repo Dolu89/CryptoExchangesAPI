@@ -1,4 +1,5 @@
 export default{
     bittrex : 'bittrex',
-    poloniex : 'poloniex'
+    poloniex : 'poloniex',
+    coinmarketcap: 'coinmarketcap'
 }
